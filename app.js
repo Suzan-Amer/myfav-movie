@@ -4,13 +4,17 @@ alert ('Welcome to my site');
 var userName= prompt ('Please enter your name');
 console.log('user name');
 
-
+function yourAge (){
 var userAge=prompt ('Please enter your age');
 if ( userAge >= 18){
    alert ('Welcome you can watch the movie ; Enjoy');
 } else {
   alert ('sorry you can not watch the movie because it contains violent scenes');
 }
+}
+yourAge();
+
+function favImg (){
 
 var timeNow= prompt('What time is it now please');
 if (timeNow >=12){
@@ -23,7 +27,8 @@ if (timeNow >=12){
 
   }
   
-
+}
+favImg();
 
 var characterName = prompt('hello plz enter your fav char name from call move !');
 
@@ -32,18 +37,23 @@ while (characterName !== 'park' && characterName !== 'kim' )
   characterName = prompt (' plz enter the character Name park or kim')
 }
 
+
+
+function nameChar (){
 var userPhoto;
 
 if (characterName === 'park' ){
 userPhoto='<img src="https://www.asiaholic.net/wp-content/uploads/2015/01/rsz_park-shin-hye.jpg">';
 } else if (characterName === 'kim'){
 userPhoto='<img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Oh_Se-hun_-_2016_Gaon_Chart_K-pop_Awards_red_carpet.jpg">';
-  
-}
-
-
 var imagesNumber = prompt ('how many image do you want?');
 
 for (var i=0 ; i < imagesNumber ; i++ ){
   document.write(userPhoto);
+}  
 }
+}
+nameChar();
+
+
+
