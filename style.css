@@ -1,0 +1,67 @@
+H1{
+background-color: #0C3835 ;
+color:rgba(255, 255, 0, 0.863) ;
+text-align: center;
+font-size: 50px;
+
+}
+
+nav ul li  {
+display: inline ;
+padding: 20px ;
+margin: 30px ;
+
+}
+nav ul li a {
+ text-decoration: none;
+  color: rgba(255, 255, 0, 0.863);
+  font-size: 30px;
+}
+
+main img {
+width: 500px ;
+margin: auto ;
+/* align-items: center ; */
+/* text-align: center; */
+}
+main {
+width:100% ;
+text-align: center;
+
+}
+
+ main h3 {
+   font-size: 50px;
+   
+
+ }
+  main p{
+font-size: 40px;
+color: black ;
+text-align: center ;
+
+  }
+   body{
+background-image: url("https://thumbs.dreamstime.com/b/movie-background-clapperboard-film-reel-popcorn-d-glasses-yellow-backdrop-copy-space-top-view-clapperboard-d-glasses-117151794.jpg ");
+background-size:1500px ;
+
+
+   }
+
+
+
+   main h2 {
+text-align: center;
+font-size: 35px ;
+
+
+   }
+    main h4{
+
+      text-align: center;
+      font-size:30px; 
+    }
+
+    footer {
+
+    }
